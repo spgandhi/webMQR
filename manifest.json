@@ -1,0 +1,20 @@
+{ 
+  	"manifest_version": 2,
+  	"name": "WebMQR",
+  	"version": "1.0",
+  	"description": "Scan the QR code to open the current URL on a hand-held device.",
+  	"icons": {"48":"images/custom-icon.png"},
+  	"permissions": [
+          "tabs"
+          // "activeTab"
+    ],
+
+  	"browser_action": {
+  		"default_icon": {                    // optional
+            "38": "images/custom-icon.png"            // optional
+        },
+        "default_title": "Google Mail", 
+  		"default_popup": "popup.html"
+   	},
+   	"author": "spgandhi@live.com"
+}
